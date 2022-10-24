@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+.payment_form {
+  border: 1px solid #ccc;
+  width: 319px;
+  height: 607px;
+  padding: 32px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.payment_form .header h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+
+.payment_form .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment_form .form label {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.payment_form .form input {
+  border: 1px solid #A7BAC5;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  color: #000;
+}
+
+.payment_form .form .error {
+  color: #FF0000;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 4px;
+}
+
+.payment_form .footer button {
+  width: 100%;
+  padding: 12px 16px;
+  background: #6E41E2;
+  border-radius: 5px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.payment_form .footer span {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5F6974;
+}
